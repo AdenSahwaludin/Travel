@@ -29,7 +29,7 @@ Route::get('/checkout/confirm/{id}', 'CheckoutController@success')->name('checko
 
 Route::prefix('admin')
     ->namespace('Admin')
-    ->middleware(['auth'])
+    ->middleware(['auth', 'admin'])
     ->group(function () {
         Route::get('/', 'DashboardController@index')->name('dashboard');
 
@@ -37,5 +37,6 @@ Route::prefix('admin')
         Route::resource('gallery', GalleryController::class);
         Route::resource('transaction', TransactionController::class);
     });
+
 
 Auth::routes(['verify' => true]);
