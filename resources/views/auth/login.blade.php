@@ -13,7 +13,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="text-center">
-                            <img src="./frontend/images/logo.png" alt="" class="w-50 mb-4">
+                            <img src="https://adensahwaludin.github.io/Logo%20Aden%20Sahwaludin.png" alt="" class="w-50 mb-4">
                         </div>
                         <form action="{{ route('login') }}" method="POST">
                             @csrf

@@ -68,7 +68,7 @@
 
         <div class="col-lg-4">
           <div class="card card-details card-right">
-            <h2>Member Are going</h2>
+            <h2>Daftar member</h2>
             <div class="members my-2">
               <img src="{{ url('./frontend/images/member-1.png') }}" class="member-image mr-1 rounded-circle">
               <img src="{{ url('./frontend/images/member-2.png') }}" class="member-image mr-1 rounded-circle">
@@ -77,30 +77,30 @@
               <img src="/frontend/images/member-5.png" class="member-image mr-1" />
             </div>
             <hr>
-            <h2>Trip information</h2>
+            <h2>Informasi Perjalanan</h2>
             <table class="trip-information">
               <tr>
-                <th width="50%">Date Of Departure</th>
+                <th width="50%">Tanggal Pemesanan</th>
                 <td width="50%" class="text-right">
                   {{ \Carbon\Carbon::create($item->departure_date)->format('F n, Y') }}
                 </td>
               </tr>
               <tr>
-                <th width="50%">Duration</th>
+                <th width="50%">Waktu</th>
                 <td width="50%" class="text-right">
                   {{ $item->duration }}
                 </td>
               </tr>
               <tr>
-                <th width="50%">Type</th>
+                <th width="50%">Tipe</th>
                 <td width="50%" class="text-right">
                   {{ $item->type }}
                 </td>
               </tr>
               <tr>
-                <th width="50%">Price</th>
+                <th width="50%">Harga</th>
                 <td width="50%" class="text-right">
-                  $ {{ $item->price }} / person
+                  Rp. {{ $item->price }} / orang
                 </td>
               </tr>
             </table>

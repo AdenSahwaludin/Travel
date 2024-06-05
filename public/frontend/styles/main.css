@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Assistant", sans-serif;
   background-color: #fff;
@@ -185,11 +188,11 @@ main .section-testimonial-content .btn-need-help:hover {
   color: #c3c3c3;
 }
 main .section-testimonial-content .btn-get-started {
-  background-color: #ff9e53;
+  background-color: #08225e;
   color: #ffffff;
 }
 main .section-testimonial-content .btn-get-started:hover {
-  background-color: #f78d3b;
+  background-color: #040e25;
   color: #ffffff;
 }
 
