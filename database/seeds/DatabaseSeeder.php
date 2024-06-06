@@ -16,10 +16,11 @@ class DatabaseSeeder extends Seeder
         \App\User::create([
             'name'	=> 'admin',
             'username'	=> 'admin',
-            'email'	=> 'admin@nomads.com',
+            'email'	=> 'admin@ugm.com',
             'email_verified_at' => now(),
             'remember_token' => Str::random(10),
-            'password'	=> bcrypt('rahasia')
+            'password'	=> bcrypt('admin'),
+            'roles'	=> 'ADMIN'
         ]);
     }
 }

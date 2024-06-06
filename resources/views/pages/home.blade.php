@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Nomads
+Lavieenbluu
 @endsection
 
 @section('content')
@@ -76,31 +76,6 @@
             </div>
         </section>
         <!-- end popular content -->
-
-        <!-- network -->
-        <section class="section-network">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>Partner Kami</h2>
-                        <p>Copanies mempercayai kami <br> lebih dari sekedar perjalanan</p>
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <img src="frontend/images/logo/ana.png" alt="">
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <img src="frontend/images/logo/shangri-la.png" alt="">
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <img src="frontend/images/logo/disney.png" alt="">
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <img src="frontend/images/logo/visa.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end network -->
 
         <!-- start testimonial heading -->
         <section class="section-testimonial-heading" id="testimonialHeading">
